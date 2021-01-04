@@ -2,3 +2,6 @@ __pycache__
 alerts
 db
 log
+Scripts/
+Lib/
+pyvenv.cfg
