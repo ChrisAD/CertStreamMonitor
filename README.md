@@ -10,7 +10,7 @@ CertStreamMonitor architecture relies on 3 scripts :
   - it writes these hostnames along with its certificate relevant informations to the database.
 - `scanhost.py`
   - this script can be executed as often as you like.
-  - it checks if site corresponding to the hostanme stored in DB is UP ot not.
+  - it checks if site corresponding to the hostanme stored in DB is UP or not.
   - it collects informations about the sites that are up to DB and to a JSON file.
 - `gethost.py`
    - Due to [@nbeguier](https://github.com/nbeguier) contribution, the project has also a `gethost.py` script that provides a way for security operators to request the last hostnames which have been detected by `certstreammointor.py` since X seconds.
